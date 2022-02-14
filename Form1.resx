@@ -117,14 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="timelabel.Text" xml:space="preserve">
+    <value>00:00</value>
+  </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Odaberite format:</value>
   </data>
   <data name="buttonUK.Text" xml:space="preserve">
     <value>UK</value>
   </data>
-  <data name="&gt;&gt;buttonHR.Parent" xml:space="preserve">
-    <value>$this</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
   </data>
   <data name="&gt;&gt;timerHR.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -133,10 +137,6 @@
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;buttonDE.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="buttonHR.Location" type="System.Drawing.Point, System.Drawing">
     <value>309, 396</value>
   </data>
@@ -146,23 +146,14 @@
   <data name="timelabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>300, 113</value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
   <data name="&gt;&gt;buttonUK.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>279, 39</value>
-  </data>
-  <data name="&gt;&gt;buttonUS.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="buttonUK.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
   </data>
   <data name="&gt;&gt;secondslabel.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -172,9 +163,6 @@
   </data>
   <data name="buttonHR.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
-  </data>
-  <data name="&gt;&gt;closeToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="secondslabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>562, 115</value>
@@ -200,8 +188,8 @@
   <data name="buttonUK.Location" type="System.Drawing.Point, System.Drawing">
     <value>611, 396</value>
   </data>
-  <data name="resetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
+  <data name="&gt;&gt;closeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;timerDE.Name" xml:space="preserve">
     <value>timerDE</value>
@@ -221,8 +209,14 @@
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="secondslabel.Text" xml:space="preserve">
-    <value>0</value>
+  <data name="resetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="secondslabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 45pt</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>279, 39</value>
   </data>
   <data name="&gt;&gt;timerUS.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -232,9 +226,6 @@
   </data>
   <data name="closeToolStripMenuItem.Text" xml:space="preserve">
     <value>close</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 394</value>
   </data>
   <data name="timelabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 75pt</value>
@@ -251,9 +242,6 @@
   <data name="buttonHR.Size" type="System.Drawing.Size, System.Drawing">
     <value>85, 37</value>
   </data>
-  <data name="resetToolStripMenuItem.Text" xml:space="preserve">
-    <value>reset</value>
-  </data>
   <data name="&gt;&gt;buttonHR.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -263,8 +251,8 @@
   <data name="datelabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 65pt</value>
   </data>
-  <data name="secondslabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 69</value>
+  <data name="&gt;&gt;buttonHR.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;buttonUK.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -275,14 +263,20 @@
   <data name="&gt;&gt;buttonDE.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="buttonUS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>415, 396</value>
+  </data>
   <data name="buttonUK.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 37</value>
   </data>
   <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="secondslabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 69</value>
   </data>
   <data name="&gt;&gt;resetToolStripMenuItem.Name" xml:space="preserve">
     <value>resetToolStripMenuItem</value>
@@ -298,9 +292,6 @@
   </data>
   <data name="&gt;&gt;buttonDE.Name" xml:space="preserve">
     <value>buttonDE</value>
-  </data>
-  <data name="&gt;&gt;timerUK.Name" xml:space="preserve">
-    <value>timerUK</value>
   </data>
   <data name="buttonUS.Text" xml:space="preserve">
     <value>USA</value>
@@ -335,8 +326,8 @@
   <data name="datelabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="secondslabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 45pt</value>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 394</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Form1</value>
@@ -344,14 +335,20 @@
   <data name="&gt;&gt;timelabel.Name" xml:space="preserve">
     <value>timelabel</value>
   </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
+  <data name="&gt;&gt;buttonUS.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
   </data>
   <data name="buttonDE.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
     <value>800, 24</value>
+  </data>
+  <data name="&gt;&gt;buttonDE.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;datelabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -368,26 +365,29 @@
   <data name="&gt;&gt;buttonUK.Name" xml:space="preserve">
     <value>buttonUK</value>
   </data>
-  <data name="buttonUS.Location" type="System.Drawing.Point, System.Drawing">
-    <value>415, 396</value>
+  <data name="resetToolStripMenuItem.Text" xml:space="preserve">
+    <value>reset</value>
   </data>
-  <data name="&gt;&gt;datelabel.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;timerUK.Name" xml:space="preserve">
+    <value>timerUK</value>
   </data>
-  <data name="&gt;&gt;buttonDE.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;buttonDE.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;closeToolStripMenuItem.Name" xml:space="preserve">
     <value>closeToolStripMenuItem</value>
   </data>
-  <data name="timelabel.Text" xml:space="preserve">
-    <value>00:00</value>
+  <data name="&gt;&gt;datelabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="buttonUK.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="&gt;&gt;datelabel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 450</value>
+  <data name="secondslabel.Text" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;buttonUK.Parent" xml:space="preserve">
     <value>$this</value>
@@ -425,22 +425,22 @@
   <metadata name="timerUS.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>219, 17</value>
   </metadata>
+  <metadata name="timerUK.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>401, 17</value>
+  </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>en-US</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="timerHR.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 17</value>
+  </metadata>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <metadata name="timerDE.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>306, 17</value>
-  </metadata>
-  <metadata name="timerHR.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>132, 17</value>
-  </metadata>
-  <metadata name="timerUK.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>401, 17</value>
   </metadata>
 </root>

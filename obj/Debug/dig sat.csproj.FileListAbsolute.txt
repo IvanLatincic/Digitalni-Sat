@@ -8,3 +8,13 @@ C:\Users\User\source\repos\dig sat\obj\Debug\dig sat.csproj.GenerateResource.cac
 C:\Users\User\source\repos\dig sat\obj\Debug\dig sat.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\dig sat\obj\Debug\dig sat.exe
 C:\Users\User\source\repos\dig sat\obj\Debug\dig sat.pdb
+C:\Users\User\source\repos\Digitalni-Sat\bin\Debug\dig sat.exe.config
+C:\Users\User\source\repos\Digitalni-Sat\bin\Debug\dig sat.exe
+C:\Users\User\source\repos\Digitalni-Sat\bin\Debug\dig sat.pdb
+C:\Users\User\source\repos\Digitalni-Sat\obj\Debug\dig sat.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Digitalni-Sat\obj\Debug\dig_sat.Form1.resources
+C:\Users\User\source\repos\Digitalni-Sat\obj\Debug\dig_sat.Properties.Resources.resources
+C:\Users\User\source\repos\Digitalni-Sat\obj\Debug\dig sat.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Digitalni-Sat\obj\Debug\dig sat.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Digitalni-Sat\obj\Debug\dig sat.exe
+C:\Users\User\source\repos\Digitalni-Sat\obj\Debug\dig sat.pdb

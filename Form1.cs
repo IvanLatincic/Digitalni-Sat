@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
 
 namespace dig_sat
 {
@@ -21,28 +22,28 @@ namespace dig_sat
         {
             timelabel.Text = DateTime.Now.ToString("HH:mm");
             secondslabel.Text = DateTime.Now.ToString("ss");
-            datelabel.Text = DateTime.Now.ToString("d");
+            datelabel.Text = DateTime.Now.ToString("d", CultureInfo.CreateSpecificCulture("hr-HR"));
         }
 
         private void timerUS_Tick(object sender, EventArgs e)
         {
-            timelabel.Text = DateTime.Now.ToString("hh:mm");
+            timelabel.Text = DateTime.Now.ToString("hh:mm tt", CultureInfo.CreateSpecificCulture("en-US"));
             secondslabel.Text = DateTime.Now.ToString("ss");
-            datelabel.Text = DateTime.Now.ToString("MM") + "/" + DateTime.Now.ToString("dd") + "/" + DateTime.Now.ToString("yyyy");
+            datelabel.Text = DateTime.Now.ToString("d", CultureInfo.CreateSpecificCulture("en-US"));
         }
 
         private void timerDE_Tick(object sender, EventArgs e)
         {
             timelabel.Text = DateTime.Now.ToString("HH:mm");
             secondslabel.Text = DateTime.Now.ToString("ss");
-            datelabel.Text = DateTime.Now.ToString("yyyy-MM-dd");
+            datelabel.Text = DateTime.Now.ToString("d", CultureInfo.CreateSpecificCulture("de-DE"));
         }
 
         private void timerUK_Tick(object sender, EventArgs e)
         {
             timelabel.Text = DateTime.Now.ToString("HH:mm");
             secondslabel.Text = DateTime.Now.ToString("ss");
-            datelabel.Text = DateTime.Now.ToString("dd") + "/" + DateTime.Now.ToString("MM") + "/" + DateTime.Now.ToString("yyyy");
+            datelabel.Text = DateTime.Now.ToString("d", CultureInfo.CreateSpecificCulture("en-GB"));
         }
 
         private void buttonHR_Click(object sender, EventArgs e)
@@ -88,6 +89,9 @@ namespace dig_sat
             Application.Exit();
         }
 
-      
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
